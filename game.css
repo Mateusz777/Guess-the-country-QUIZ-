@@ -1,0 +1,79 @@
+.game-container {
+    background-color: #56a5eb;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    height: 30vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.column {
+    align-items: center;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    font-size: 2rem;
+    margin-bottom: 4rem;
+    font-weight: 700;
+}
+
+img {
+    width: 30vh;
+}
+
+input {
+    width: 200px;
+    padding: 1rem;
+    margin-top: 15px;
+    border: none;
+}
+
+/* BUTTON */
+.btn {
+    margin-top: 15px;
+    font-size: 1.8rem;
+    padding: 1rem 0;
+    width: 15rem;
+    text-align: center;
+    border: 0.1rem solid #ffffff;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: #56a5eb;
+    background-color: white;
+}
+
+.btn:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(128, 235, 86, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+}
+
+.giveUp {
+    margin-top: 100px;
+}
+
+.correct {
+    background-color: #28a745;
+}
+
+/* TOP3 */
+
+.highScoresList {
+    margin-top: 20px;
+    font-size: 20px;
+    list-style: none;
+}
+
+.highScoresList li{
+    margin: 10px;;
+}
